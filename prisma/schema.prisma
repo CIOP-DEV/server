@@ -16,7 +16,6 @@ model Habit {
   id String @id @default(uuid()) //gera hash aleatório
   title String
   created_at DateTime
-
   //plural minúsculo no DB
   @@map("habits")
 }
